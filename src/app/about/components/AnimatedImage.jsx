@@ -3,21 +3,22 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import Image from 'next/image'
 
-export const AnimatedImage = ({src}) => {
-    const desdeIzquierda = {
-        initial:{
-          opacity:0,
-          x: -50
-        },
-        animate:{
-          opacity:1,
-          x: 0,
-          transition: {
-            duration: 3
-          }
-        }
+const desdeIzquierda = {
+    initial:{
+      opacity:0,
+      x: -50
+    },
+    animate:{
+      opacity:1,
+      x: 0,
+      transition: {
+        duration: 3
       }
+    }
+  }
 
+export const AnimatedImage = ({src}) => {
+   
   return (
    <>
    <motion.div initial='initial' animate='animate' variants={desdeIzquierda} className='w-1/2'>
