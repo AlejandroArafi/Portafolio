@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { DribbbleIcon, GitHubIcon, LinkedInIcon, PinterestIcon, XIcon } from './icons'
+import { DribbbleIcon, GitHubIcon, LinkedInIcon, PinterestIcon, XIcon } from './Icons'
 
 
 export const NavBar = () => {
@@ -8,8 +8,8 @@ export const NavBar = () => {
     <>
     <header className='w-full px-32 py-8 font-medium flex item-center justify-between' >
         <nav>
-            <Link href="/ ">Home</Link>
-            <Link href="/about ">About</Link>
+            <Link href="/ ">Home </Link>
+            <Link href="/about ">About </Link>
             <Link href="/projects ">Projects</Link>
         </nav>
 
