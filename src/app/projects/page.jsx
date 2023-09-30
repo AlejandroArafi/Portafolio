@@ -4,6 +4,10 @@ import { AnimatedText } from '../about/components/AnimatedText'
 import Link from 'next/link'
 import '../projects/projects.css'
 import Card from '../about/components/Card'
+import Card2 from '../about/components/Card2'
+import Card3 from '../about/components/Card3'
+import Card4 from '../about/components/Card4'
+import Card5 from '../about/components/Card5'
 
 
 
@@ -15,13 +19,58 @@ export const metadata = {
 const page = () => {
   return (
     <>
+    {/* proyecto 1 */}
     <div className='title-container'>
     <h1>Proyectos</h1>
-    <h2>Landing pasteleria</h2>
+    <h2>Pasteleria (Landing)</h2>
      </div>
     
     <div className='cards-container'>
       <div className='screen-1'><Card/>
+      </div>
+    </div>
+
+    {/* proyecto 2 */}
+    
+    <div className='title-container2'>
+        <h2>Lista de compras (CRUD)</h2>
+     </div>
+    
+    <div className='cards-container'>
+      <div className='screen-2'><Card2/>
+      </div>
+    </div>
+
+    {/* proyecto 3 */}
+
+    <div className='title-container3'>
+        <h2>Tablero de datos (api)</h2>
+     </div>
+    
+    <div className='cards-container'>
+      <div className='screen-3'><Card3/>
+      </div>
+    </div>
+
+    {/* proyecto 4 */}
+
+    <div className='title-container4'>
+        <h2>Restaurant App</h2>
+     </div>
+    
+    <div className='cards-container'>
+      <div className='screen-4'><Card4/>
+      </div>
+    </div>
+
+    {/* proyecto 5 */}
+
+    <div className='title-container5'>
+        <h2>Restaurant App</h2>
+     </div>
+    
+    <div className='cards-container'>
+      <div className='screen-5'><Card5/>
       </div>
     </div>
     
