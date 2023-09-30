@@ -1,0 +1,32 @@
+.contenedor-p1 {
+    display: flex; /* Utiliza un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente en el eje X */
+    align-items: center; /* Centra verticalmente en el eje Y */
+    
+
+  }
+
+  .screen-1{
+    text-align: center;
+    
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    
+  }
+
+  .title-container {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    
+  }
+  .title-container h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+  } 
+  .title-container h2{
+    margin-bottom: 10px;
+  }

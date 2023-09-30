@@ -3,6 +3,9 @@ import { AnimatedImage } from '../about/components/AnimatedImage'
 import { AnimatedText } from '../about/components/AnimatedText'
 import Link from 'next/link'
 import '../projects/projects.css'
+import Card from '../about/components/Card'
+
+
 
 export const metadata = {
     title: 'proyectos de alejandro',
@@ -12,7 +15,19 @@ export const metadata = {
 const page = () => {
   return (
     <>
-   <div className='w-full h-full p-32 bg-red'>
+    <div className='title-container'>
+    <h1>Proyectos</h1>
+    <h2>Landing pasteleria</h2>
+     </div>
+    
+    <div className='cards-container'>
+      <div className='screen-1'><Card/>
+      </div>
+    </div>
+    
+    
+ 
+   {/* <div className='w-full h-full p-32 bg-red'>
     <main className='flex items-center justify-between w-full'>
       <AnimatedImage src='https://portfolio-demo-g1q6mr7h6-jonadrar.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeveloper-pic-1.d43c09fa.png&w=3840&q=75'/>
       
@@ -30,7 +45,7 @@ const page = () => {
     </main>
 
    </div>
-  
+   */}
 
    </>
   )

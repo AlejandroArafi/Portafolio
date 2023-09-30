@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Quicksand&display=swap');
+
+/* quiza se pueda omitir */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    }
+
+    
+
+.contenedor-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    margin: 10px 20px 20px 80px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    gap: 5px;
+}
+
+/* .contenedor-secciones a {
+    margin-right: 80px;
+  } */
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   margin-left: 80px;
+    margin-bottom: 20px;
+}
+.titulo h2 {
+    margin-top: 80px;
+    color: #454545;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+}
+.titulo h3{
+    color: #454545;
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 500;
+    line-height: 15px;
+
+}
+
+
+.nombre {
+    color: #454545;
+    font-size: 20px;
+    
+}
+
+/* Estilo para los enlaces */
+.navbar a {
+    color: #454545; /* Color de texto normal */
+    text-decoration: none; /* Quita la subraya predeterminada de los enlaces */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    transition: color 0.3s ease; /* Agrega una transición suave al cambio de color */
+  }
+  
+  /* Estilo para los enlaces cuando el cursor está sobre ellos */
+  .navbar a:hover {
+    color: #eb840e; /* Cambia el color de texto al pasar el cursor */
+    font-weight: 500; /* Cambia el peso de la fuente al pasar el cursor */
+    
+  }
+  
