@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { GitHubIcon, LinkedInIcon, XIcon } from "./Icons";
 import "./navbar.css";
+import { AnimatedText } from "./AnimatedText";
 
 
 
@@ -9,12 +10,15 @@ import "./navbar.css";
 export const NavBar = () => {
   return (
     <>
-    
+    <div className="contenedor-titulo">
       <div className="titulo">
         <h2 >
           ALEJANDRO FIGUEROA
          </h2>
-         <h3>DESARROLLADOR WEB</h3>     
+         <AnimatedText   text={'DESARROLLADOR WEB'}/>
+        
+         {/* <h3>DESARROLLADOR WEB</h3>      */}
+      </div>
       </div>
 
       <div className="navbar">

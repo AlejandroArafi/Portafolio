@@ -20,10 +20,15 @@ const page = () => {
     {/* <div className='flex items-center justify-center bg-gradient-to-r from-cyan-400 to-cyan-600 text-slate-100 p-2 rounded-lg w-32' ><CvDownload/></div>
      */}
      <div className='flex justify-center'>
-  <div className='bg-gradient-to-r from-cyan-400 to-cyan-800 text-slate-100 p-2 rounded-lg w-32 mt-10'>
+  <div className='flex items-center justify-center bg-slate-950 text-slate-100  p-2 rounded-lg w-32 mt-10'>
+
+<div>
+  <image src="https://iconos8.es/icon/asWSSTBrDlTW/react-a-javascript-library-for-building-user-interfaces" alt="" />
+</div>
     <CvDownload />
   </div>
 </div>
+
 
     
  

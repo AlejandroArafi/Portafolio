@@ -23,13 +23,21 @@
     margin-right: 80px;
   } */
 
+.contenedor-titulo{
+    background-color: rgba(1, 1, 1, 0.254);
+    width: 100%;
+    height: 170px;
+    
+    
+}
+
 .titulo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;    
    margin-left: 80px;
     margin-bottom: 20px;
+   
 }
 .titulo h2 {
     margin-top: 80px;
@@ -72,3 +80,11 @@
     
   }
   
+  .textAnimated {
+    color: #454545;
+    font-size: 17px !important;
+    font-family: 'Quicksand', sans-serif !important;
+    letter-spacing: 4px !important;
+    font-weight: 500;
+    line-height: 15px;
+  }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const CvDownload = () => {
   return (
-    <div className='App'> <a href="./cvAlejandroFigueroa.pdf" download={''}>Descargar cv</a></div>
+    <div className='App'> <a href="./cvAlejandroFigueroa.pdf" download={''}>Curriculum</a></div>
   )
 }
 
