@@ -22,7 +22,7 @@ const page = () => {
     {/* proyecto 1 */}
     <div className='title-container'>
     <h1>Proyectos</h1>
-    <h2>Pasteleria (Landing)</h2>
+    <h2>Landing</h2>
      </div>
     
     <div className='cards-container'>
@@ -33,7 +33,7 @@ const page = () => {
     {/* proyecto 2 */}
     
     <div className='title-container2'>
-        <h2>Lista de compras (CRUD)</h2>
+        <h2>CRUD</h2>
      </div>
     
     <div className='cards-container'>
@@ -44,7 +44,7 @@ const page = () => {
     {/* proyecto 3 */}
 
     <div className='title-container3'>
-        <h2>Tablero de datos (api)</h2>
+        <h2>API</h2>
      </div>
     
     <div className='cards-container'>
@@ -66,10 +66,10 @@ const page = () => {
     {/* proyecto 5 */}
 
     <div className='title-container5'>
-        <h2>Restaurant App</h2>
+        <h2>E-Commerce</h2>
      </div>
     
-    <div className='cards-container'>
+    <div className='cards-container5'>
       <div className='screen-5'><Card5/>
       </div>
     </div>
