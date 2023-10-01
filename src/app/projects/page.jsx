@@ -21,7 +21,7 @@ const page = () => {
     <>
     {/* proyecto 1 */}
     <div className='title-container'>
-    <h1>Proyectos</h1>
+    <h1>PROYECTOS</h1>
     <h2>Landing</h2>
      </div>
     

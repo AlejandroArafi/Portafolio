@@ -19,12 +19,9 @@
     gap: 5px;
 }
 
-/* .contenedor-secciones a {
-    margin-right: 80px;
-  } */
 
 .contenedor-titulo{
-    background-color: rgba(1, 1, 1, 0.254);
+    background-color: rgba(174, 174, 174, 0.254);
     width: 100%;
     height: 170px;
     
@@ -63,20 +60,19 @@
     
 }
 
-/* Estilo para los enlaces */
 .navbar a {
-    color: #454545; /* Color de texto normal */
-    text-decoration: none; /* Quita la subraya predeterminada de los enlaces */
+    color: #454545; 
+    text-decoration: none; 
     font-family: 'Quicksand', sans-serif;
     font-size: 17px;
     font-weight: 100;
-    transition: color 0.3s ease; /* Agrega una transición suave al cambio de color */
+    transition: color 0.3s ease; 
   }
   
-  /* Estilo para los enlaces cuando el cursor está sobre ellos */
+ 
   .navbar a:hover {
-    color: #eb840e; /* Cambia el color de texto al pasar el cursor */
-    font-weight: 500; /* Cambia el peso de la fuente al pasar el cursor */
+    color: #eb840e; 
+    font-weight: 500; 
     
   }
   

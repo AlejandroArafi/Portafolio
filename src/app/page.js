@@ -10,13 +10,8 @@ export default function Home() {
   return (
     <>
     <div className="background-image">
-    {/* <p>Como desarrollador full-stack con un enfoque destacado en el
-              frontend, mi pasión y experiencia se concentran en la creación de
-              interfaces de usuario responivas y en la construcción de
-              experiencias web excepcionales. Echa un vistazo a mis proyectos,
-              donde podrás apreciar mi trabajo tanto en el frontend, con
-              tecnologías como React.js, como en el desarrollo integral de
-              aplicaciones web.</p> */}
+                      <AnimatedImage src='https://portfolio-demo-g1q6mr7h6-jonadrar.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeveloper-pic-1.d43c09fa.png&w=3840&q=75'/>
+
 
             </div>
           

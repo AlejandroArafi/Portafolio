@@ -12,9 +12,9 @@ const page = () => {
   return (
     <>
     <div className='contenedor-about'>
-    <h1>Acerca de mi</h1>
+    <h1>ACERCA DE MI</h1>
     <p>
-    Como desarrollador full-stack con un enfoque destacado en el frontend, mi pasión y experiencia se concentran en la creación de interfaces de usuario responsivas y en la construcción de experiencias web excepcionales. Echa un vistazo a mis proyectos, donde podrás apreciar mi trabajo tanto en el frontend, con tecnologías como React.js, como en el desarrollo integral de aplicaciones web.
+    Como desarrollador full-stack (MERN) con un enfoque destacado en el frontend, mi pasión y experiencia se concentran en la creación de interfaces de usuario responsivas y en la construcción de experiencias web excepcionales. Echa un vistazo a mis proyectos, donde podrás apreciar mi trabajo tanto en el frontend, con tecnologías como Javascript y React.js, como en el desarrollo integral de aplicaciones web.
     </p>
     </div>
     {/* <div className='flex items-center justify-center bg-gradient-to-r from-cyan-400 to-cyan-600 text-slate-100 p-2 rounded-lg w-32' ><CvDownload/></div>
@@ -22,9 +22,7 @@ const page = () => {
      <div className='flex justify-center'>
   <div className='flex items-center justify-center bg-slate-950 text-slate-100  p-2 rounded-lg w-32 mt-10'>
 
-<div>
-  <image src="https://iconos8.es/icon/asWSSTBrDlTW/react-a-javascript-library-for-building-user-interfaces" alt="" />
-</div>
+
     <CvDownload />
   </div>
 </div>
