@@ -13,6 +13,8 @@ export const Footer = () => {
             <a className="linkedin-icon" href='https://linkedin.com/in/alejandroarafi'><LinkedInIcon/></a>
                       
         </nav>
+
+
     </>
   );
 };
