@@ -1,0 +1,20 @@
+
+.titulo-skills {
+    font-size: 30px;
+    
+    
+}
+
+.contenedor-skills {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.skill-image {
+    max-width: 100%; /* Limita el ancho máximo de las imágenes al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    margin: 10px; /* Agrega un margen entre las imágenes (ajusta según tus preferencias) */
+  }
