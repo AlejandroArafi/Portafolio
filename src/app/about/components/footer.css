@@ -1,22 +1,29 @@
-.contenedor-icons {
-   margin: 0 20px 0 80px;
+body {
+    margin: 0;
     display: flex;
-    gap: 5px;
-}
-.linkedin-icon {
-    margin-left: 8px;
+    flex-direction: column;    
+    min-height: 100vh;
 }
 
-/* footer abajo */
 .contenedor-icons {
-    /* position: fixed;
-    bottom: 0;
-    left: 0; */
-    /* width: 100%; */
-    padding: 10px;
-    /* display: flex; */
-   margin-top: auto;
-  }
-  
-
-  
+    margin: 0 20px 0 80px;
+     display: flex;
+     gap: 5px;
+ }
+ .linkedin-icon {
+     margin-left: 8px;
+ }
+ 
+ /* footer abajo */
+ .contenedor-icons {
+     /* position: fixed;
+     bottom: 0;
+     left: 0; */
+     /* width: 100%; */
+     padding: 10px;
+     /* display: flex; */
+    margin-top: auto;
+   }
+   
+ 
+   
