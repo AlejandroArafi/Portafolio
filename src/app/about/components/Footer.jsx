@@ -3,8 +3,6 @@ import { GitHubIcon, Gith, Linke, LinkedInIcon, XIcon } from "./Icons";
 import './footer.css'
 
 
-
-
 export const Footer = () => {
   return (
     <>

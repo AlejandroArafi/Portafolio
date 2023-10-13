@@ -1,8 +1,7 @@
 
 .titulo-skills {
     font-size: 30px;
-    
-    
+       
 }
 
 .contenedor-skills {
@@ -14,7 +13,13 @@
     
 }
 .skill-image {
-    max-width: 100%; /* Limita el ancho máximo de las imágenes al 100% del contenedor */
+    max-width: 200px; /* Limita el ancho máximo de las imágenes al 100% del contenedor */
     height: auto; /* Mantiene la proporción de aspecto de las imágenes */
     margin: 10px; /* Agrega un margen entre las imágenes (ajusta según tus preferencias) */
+    transition: 0.3s ease;
+    transform: scale(1);
+  }
+
+  .skill-image:hover {
+    transform: scale(1.1); /* Escala un 10% más grande al pasar el cursor */
   }
