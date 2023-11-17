@@ -1,4 +1,4 @@
-.contenedor-p1, .contenedor-p2, .contenedor-p3, .contenedor-p4, .contenedor-p5 {
+.contenedor-p1, .contenedor-p2, .contenedor-p3, .contenedor-p4, .contenedor-p5, .contenedor-p6 {
     display: flex; /* Utiliza un contenedor flexible */
     justify-content: center; /* Centra horizontalmente en el eje X */
     align-items: center; /* Centra verticalmente en el eje Y */
@@ -6,7 +6,7 @@
 
   }
 
-  .screen-1, .screen-2, .screen-3, .screen-4, .screen-5{
+  .screen-1, .screen-2, .screen-3, .screen-4, .screen-5, .screen-6{
     text-align: center;
     
   }
@@ -19,6 +19,13 @@
   }
 
   .cards-container5 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    /* margin-bottom: 100px; */
+    
+  }
+  .cards-container6 {
     display: flex;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
@@ -61,6 +68,12 @@
     margin-bottom: 15px;
   }
   .title-container5 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .title-container6 {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     margin-top: 30px;

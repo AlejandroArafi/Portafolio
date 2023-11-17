@@ -8,6 +8,7 @@ import Card2 from '../about/components/Card2'
 import Card3 from '../about/components/Card3'
 import Card4 from '../about/components/Card4'
 import Card5 from '../about/components/Card5'
+import Card6 from '../about/components/Card6'
 
 
 
@@ -73,6 +74,18 @@ const page = () => {
       <div className='screen-5'><Card5/>
       </div>
     </div>
+    
+     {/* proyecto 6 */}
+
+     <div className='title-container6'>
+        <h2>Weather App</h2>
+     </div>
+    
+    <div className='cards-container6'>
+      <div className='screen-6'><Card6/>
+      </div>
+    </div>
+    
     
     
  
