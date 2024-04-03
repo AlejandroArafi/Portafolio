@@ -18,6 +18,8 @@ export const Skills = () => {
     <img src="https://res.cloudinary.com/deq2bmgqk/image/upload/v1696296442/portafolio/express-svgrepo-com_ushztf.png" alt=""  className='skill-image'/>
     <img src="https://res.cloudinary.com/deq2bmgqk/image/upload/v1696296441/portafolio/mongodb-svgrepo-com_qzsuxc.png" alt=""  className='skill-image'/>
     <img src="https://res.cloudinary.com/deq2bmgqk/image/upload/v1696296579/portafolio/npm-svgrepo-com_h1e7l3.png" alt=""  className='skill-image'/>
+    <img src="https://res.cloudinary.com/deq2bmgqk/image/upload/v1712089231/portafolio/flutter-svgrepo-com-2_dkod5t.png" alt=""  className='skill-image'/>
+    <img src="https://res.cloudinary.com/deq2bmgqk/image/upload/v1712089371/portafolio/dart-svgrepo-com_bqxzcw.png" alt=""  className='skill-image'/>
     </div>
     </>
   )

@@ -18,6 +18,8 @@
     margin: 10px; /* Agrega un margen entre las imágenes (ajusta según tus preferencias) */
     transition: 0.3s ease;
     transform: scale(1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 30px;
   }
 
   .skill-image:hover {

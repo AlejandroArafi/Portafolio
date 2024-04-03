@@ -13,9 +13,9 @@ const page = () => {
   return (
     <>
     <div className='contenedor-about'>
-    <h1>ACERCA DE MI</h1>
+    <h1 className='about-me'>ACERCA DE MI</h1>
     <p>
-    Como desarrollador full-stack (MERN) con un enfoque destacado en el frontend, mi pasión y experiencia se concentran en la creación de interfaces de usuario responsivas y en la construcción de experiencias web excepcionales. Echa un vistazo a mis proyectos, donde podrás apreciar mi trabajo tanto en el frontend, con tecnologías como Javascript y React.js, como en el desarrollo integral de aplicaciones web.
+    Soy un apasionado desarrollador Front-End con un enfoque en la creación de soluciones web responsivas y atractivas. Comprometido con la excelencia en cada proyecto, mi objetivo es fusionar habilidades técnicas con creatividad para ofrecer una gran experiencia al usuario Con experiencia tanto en el desarrollo web como en el diseño de aplicaciones móviles, busco constantemente desafíos que me permitan expandir mis conocimientos y superar expectativas.
     </p>
 
     <Skills/>

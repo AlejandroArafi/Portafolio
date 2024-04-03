@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Quicksand&display=swap');
 
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('/fonts/CaviarDreams.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 /* quiza se pueda omitir */
 .navbar {
     display: flex;
@@ -7,7 +14,7 @@
     }
 
     
-.contenedor-navbar {
+.contenedor-navbar { /*no se que es */
     display: flex;
     flex-direction: column;
     justify-content:end;
@@ -19,31 +26,33 @@
 }
 
 
-.contenedor-titulo{
-    background-color: rgba(174, 174, 174, 0.254);
+.contenedor-titulo{ /* contenedor superior color cyan */
+    background-color: #A4D8D8;
     width: 100%;
-    height: 170px;
+    height: 200px;
     
     
 }
 
-.titulo {
+.titulo { /*contenedor del nombre y profesion */
     display: flex;
     flex-direction: column;
     justify-content: center;    
    margin-left: 80px;
     margin-bottom: 20px;
+    
+    
    
 }
-.titulo h2 {
+.titulo h2 { /*alejandro figueroa */
     margin-top: 80px;
     color: #454545;
-    font-size: 25px;
+    font-size: 33px;
     font-weight: 100;
     font-family: 'Quicksand', sans-serif;
 }
-.titulo h3{
-    color: #454545;
+.titulo h3{ /*no se que es */
+    color: #454545f4;
     font-size: 17px;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 4px;
@@ -53,33 +62,56 @@
 }
 
 
-.nombre {
+.nombre { /*creo que se puede borrar */
     color: #454545;
-    font-size: 20px;
+    font-size: 50px;
     
 }
 
-.navbar a {
+.link-container {
+    display: inline-block;
+}
+
+
+.navbar a { /*estilos de los links */
     color: #454545; 
     text-decoration: none; 
     font-family: 'Quicksand', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 100;
     transition: color 0.3s ease; 
+    cursor:pointer;
+    display: inline-block;  
+    margin-left: 20px;
+   
   }
+
+  
   
  
   .navbar a:hover {
     color: #eb840e; 
-    font-weight: 500; 
+    font-weight:500; 
     
   }
+
+  .home-link {
+    margin-top: 40px;
+
+}
+  
   
   .textAnimated {
     color: #454545;
     font-size: 17px !important;
-    font-family: 'Quicksand', sans-serif !important;
+    font-family: 'CaviarDreams', sans-serif !important;
     letter-spacing: 4px !important;
     font-weight: 500;
     line-height: 15px;
   }
+
+  .desarrollador-web {
+    color: yellow;
+    font-weight: 300;
+  }
+

@@ -8,9 +8,14 @@
 
   .screen-1, .screen-2, .screen-3, .screen-4, .screen-5, .screen-6{
     text-align: center;
-    
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23); /*efecto de sombra en tarjetas*/
+    border-radius: 20px; /*borde redondeado en tarjetas*/
+    transition: 0.5s ease; /*transición en las cards de al pasar el cursor*/
   }
-  
+
+  .screen-1:hover, .screen-2:hover, .screen-3:hover, .screen-4:hover, .screen-5:hover, .screen-6:hover{
+    transform: scale(1.1); /* Escala un 10% más grande al pasar el cursor */
+  }
   .cards-container {
     display: flex;
     justify-content: center;

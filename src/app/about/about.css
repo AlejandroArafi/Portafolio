@@ -19,3 +19,15 @@
     margin-bottom: 50px;
 }
 
+.download-button {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    color: #f9dd04;
+  }
+
+
+  

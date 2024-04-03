@@ -11,7 +11,6 @@ import Card5 from '../about/components/Card5'
 import Card6 from '../about/components/Card6'
 
 
-
 export const metadata = {
     title: 'proyectos de alejandro',
     description:'React, NextJS, '
