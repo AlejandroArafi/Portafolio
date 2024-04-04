@@ -19,7 +19,7 @@ const Card6 = () => {
           </h5>
         </a>
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Aplicaión para consultar el clima y otros indices
+          Aplicación para consultar el clima y otros indices
         </p>
         <a
           href="https://wheater-app-khaki.vercel.app/"
